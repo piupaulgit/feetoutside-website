@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+}
+
+.banner {
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}
+.banner video {
+  max-width: 100%;
+}
+.logo {
+}
+.banner:after {
+  position: absolute;
+  right: -13px;
+  background-color: #fff;
+  width: calc(100% + 50px);
+  content: "";
+  height: 118px;
+  bottom: -68px;
+  transform: rotate(-4deg);
+}
+.logo {
+  background-image: url(../images/logo.png);
+  background-attachment: fixed;
+}
+.blogs {
+  padding-top: 50px;
+}
+.suggested_blogs {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f4f4f4+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #ffffff 0%,
+    #f4f4f4 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #ffffff 0%,
+    #f4f4f4 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ffffff 0%,
+    #f4f4f4 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+
+  height: 500px;
+}
+
+.about {
+  text-align: center;
+  padding-top: 80px;
+  background-image: url(../images/abt-back.png);
+  background-position: center bottom;
+  background-size: 100%;
+  padding-bottom: 363px;
+  background-repeat: no-repeat;
+}
+p.body-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+.heading {
+  font-size: 72px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.watch-on-youtube {
+  background-color: #fbfafa;
+  min-height: 800px;
+}
+.about-joe {
+  background-image: url(../images/joe.png);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #fff !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about-kun {
+  background-image: url(../images/kun.png);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #fff !important;
+}
+.follw {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.follw button {
+  background: transparent;
+  border: 2px solid #fff;
+  line-height: 1;
+  text-transform: uppercase;
+  padding-top: 3px;
+  transition: all 0.3s;
+}
+.follw button:hover {
+  background: #fff;
+  color: #333;
+}
